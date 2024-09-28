@@ -1,20 +1,19 @@
-/* App container to hold the entire content with a border */
+
 .app-container {
-  border: 2px solid rgba(0, 0, 0, 0.3); /* Border around the app */
-  border-radius: 20px; /* Rounded corners */
-  padding: 20px; /* Space inside the border */
-  max-width: 500px; /* Maximum width of the container */
-  margin: 50px auto; /* Center the container with margin */
-  background: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  border: 2px solid rgba(0, 0, 0, 0.3); 
+  border-radius: 20px; 
+  padding: 20px; 
+  max-width: 500px; 
+  margin: 50px auto; 
+  background: rgba(255, 255, 255, 0.5); 
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
   display: flex;
-  flex-direction: column; /* Stack children vertically */
-  align-items: center; /* Center items horizontally */
+  flex-direction: column; 
+  align-items: center; 
 }
 
-/* Space between the input form and the weather information */
 input, button {
-  margin-bottom: 20px; /* Add margin below input and button */
+  margin-bottom: 20px; 
 }
 
 .container {
@@ -33,7 +32,7 @@ input, button {
   padding: 30px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
-  margin-top: 20px; /* Add margin above weather box */
+  margin-top: 20px; 
 }
 
 h2 {

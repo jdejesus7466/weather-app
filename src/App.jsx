@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Weather from './weather';
+import './App.css'; 
 
 function App() {
   const [city, setCity] = useState('');
@@ -28,7 +29,7 @@ function App() {
   };
 
   return (
-    <div className="App" style={{ textAlign: 'center', marginTop: '50px' }}>
+    <div className="App" style={{ textAlign: 'center', marginTop: '50px', backgroundColor: '#f0f8ff', transition: 'background-color 0.5s' }}>
       <h1>Weather App</h1>
       <form onSubmit={fetchWeather}>
         <input

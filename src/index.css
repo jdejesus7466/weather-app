@@ -1,27 +1,22 @@
 :root {
-  /* Background Colors */
   --background-light-pink: #ffe6e6;
   --background-light-blue: #e6f7ff;
-  --background-color: var(--background-light-blue); /* Change to --background-light-pink if desired */
+  --background-color: var(--background-light-blue);
 
-  /* Text Colors */
   --primary-text-color: #333;
   --secondary-text-color: #555;
   --error-color: #ff4d4d;
 
-  /* Input Colors */
   --input-background-color: rgba(255, 255, 255, 0.7);
   --input-text-color: #333;
   --input-border-color: #ccc;
   --input-focus-border-color: #61dafb;
 
-  /* Button Colors */
   --button-background-color: #61dafb;
   --button-text-color: white;
   --button-hover-background-color: #21a1f1;
   --button-active-background-color: #1a8cd8;
 
-  /* Other Colors */
   --primary-color: #646cff;
   --primary-color-hover: #535bf2;
 }
